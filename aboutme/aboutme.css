@@ -1,0 +1,198 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Gugi', cursive;
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	height: 100vh;
+}
+
+nav {
+	font-size: 20px;
+}	
+
+
+body > nav > img {
+	border-radius: 50%;
+}
+
+.navbar {
+	background: black;
+}
+
+.nav-item {
+	text-decoration: none;
+}
+
+.nav-link {
+	color: white;;
+	text-decoration: none;
+	word-spacing: 100px;
+}
+
+main {
+	padding-top: 100px; 
+	overflow: hidden;
+	color: white;
+}
+
+.about-nav > a > h3 {
+	color: #5bc0de;
+	letter-spacing: 10px;
+} 
+
+.about-nav > a {
+	text-decoration: none;
+}
+
+/*.divider > h1 {
+	padding-top:  8px;
+}
+
+.aboutimg > img {
+	clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+*/
+
+/*.education {
+	height: 100vh;
+}*/
+
+.career {
+	/*padding: 10px;*/
+}
+
+.aviation {
+	background-image: url(./images/aviation.jpg);
+	background-size: cover;
+	height: 50vh;
+	background-position: right;
+}
+
+.career-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+
+.career-desc{
+	width: 400px;
+}
+/*HOVER*/
+
+.career-overlay:hover {
+	opacity: 1;
+}
+
+
+.zuitt {
+	background-image: url(https://blog.zuitt.co/wp-content/uploads/2019/06/190603_Zuitt-Launch_Logo.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+}
+
+.shopee {
+	background-image: url(https://logodix.com/logo/2015036.png);
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+}
+.gaming {
+	background-image: url(./images/gaming.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	position: relative;
+}
+
+footer {
+	background: black;
+	position: relative;
+	color: white;
+}
+
+.row {
+	padding: 5px;
+	font-size: 13px;
+}
+
+.fa {
+	padding: 10px;
+	font-size: 20px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-instagram {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	color: white;
+}
+.fa-google {
+	background: maroon;
+	color: white;
+}
+
+ul {
+	padding: 10px;
+	list-style-type: none;
+}
+
+li {
+	color: white;
+}
+
+.contact > li {
+	padding: 10px;
+}
+
+div > ul > a {
+	padding: 10px;
+	text-decoration: none;
+}
+
+ul > p {
+	color: white;
+}
+
+.form-control {
+	padding: 10px;
+}
+
+input + p {
+	margin-top: 20px;
+}
+
+
+.btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+button > a {
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}

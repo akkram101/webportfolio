@@ -1,0 +1,156 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Gugi', cursive;
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	background-size: cover; 
+	height: 120vh;
+}
+
+nav {
+	font-size: 20px;
+}	
+
+
+body > nav > img {
+	border-radius: 50%;
+}
+
+.navbar {
+	background: black;
+	float: right;
+}
+
+.nav-link {
+	color: white;
+	float: right;
+}
+
+.nav-item > a {
+	text-decoration: none;
+}
+
+
+.section {
+	position: relative;
+	padding-top: 100px;
+	overflow: hidden;
+}
+
+video {
+	width: 130%;
+}
+
+.welcome {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.info {
+	padding: 100px;
+	height: 80vh;
+	margin: 30px;
+}
+
+.cards > .row {
+	background: black;
+	margin: 100px;
+	padding: 10px;
+}
+
+.card {
+	width: 18rem;
+	background: black;
+}
+
+.card-title {
+	margin-bottom: 50px;
+	letter-spacing: 5px;
+}
+
+.subscribe {
+	height: 50vh;
+}
+
+.email-text{
+	letter-spacing: 5px;
+
+}
+footer {
+	margin: 40px;
+}
+
+.row {
+	padding: 5px;
+	font-size: 13px;
+}
+
+.fa {
+	padding: 10px;
+	font-size: 20px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-instagram {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	color: white;
+}
+.fa-google {
+	background: maroon;
+	color: white;
+}
+
+ul {
+	padding: 10px;
+	list-style-type: none;
+}
+
+li {
+	color: white;
+}
+
+.contact {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div > ul > a {
+	padding: 10px;
+	text-decoration: none;
+}
+
+.form-control {
+	padding: 10px;
+}
+
+input + p {
+	margin-top: 20px;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+button > a {
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
