@@ -306,11 +306,12 @@ input + p {
 @media only screen and (max-width: 400px) {
   .welcome-title > h1 {
     font-size: 3.5rem;
+    text-align: center;
   }
 
-  .welcome-title > p {
+  .welcome-title p {
 
-  	padding-right: 30px;
+  	padding-right: 50px;
   	text-align: right;
   }
 
