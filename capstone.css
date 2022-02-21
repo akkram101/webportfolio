@@ -26,6 +26,10 @@ nav li {
 	font-size: 1.5rem;
 }
 
+.welcome {
+	grid-template-columns: auto-fit;
+}
+
 .welcome > div {
 	min-height: 91vh;
 	overflow: hidden;
@@ -34,11 +38,11 @@ nav li {
 
 .welcome-title > h1{
 	text-shadow: 10px 10px 10px black;  
-	font-size: 9rem;
+	font-size: 9em;
 }
 
 .welcome-desc > p { 
-	font-size: 1.2rem;
+	font-size: 1.2em;
 
 }
 
@@ -226,6 +230,7 @@ text-transform: uppercase;
 
 footer {
 	background: #e5e5dc;
+	font-size: 	13px;
 }
 
 .fa {
@@ -286,4 +291,36 @@ input + p {
 
 .btn {
 	margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .welcome-title > h1 {
+    font-size: 4.5rem;
+  }
+
+  .welcome-title > p {
+  	font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .welcome-title > h1 {
+    font-size: 3.5rem;
+  }
+
+  .welcome-title > p {
+
+  	padding-right: 30px;
+  	text-align: right;
+  }
+
+ .nav li {
+ 	font-size: 1rem;
+ }
+
+ nav {
+ 	justify-content: center; 
+ 	text-align: center;
+ }
+
 }
