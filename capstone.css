@@ -19,16 +19,17 @@ nav li {
 }
 
 .nav-item {
-	padding-left: 50px;
+	/*padding-left: 50px;*/
 }
 
 nav li {
 	font-size: 1.5rem;
 }
 
-.welcome {
+.welcome > div {
 	min-height: 91vh;
 	overflow: hidden;
+	flex-wrap: 	wrap;
 }
 
 .welcome-title > h1{
@@ -116,7 +117,7 @@ nav li {
 
 .friends {
 	position: relative;
-	min-height: 90vh;
+	min-height: 100vh;
 }
 
 .friends-side {
@@ -187,7 +188,7 @@ text-transform: uppercase;
 
 .quote {
 	position: relative;
-	height: 65vh;
+	min-height: 65vh;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold; 
 	padding: 0;
@@ -199,6 +200,7 @@ text-transform: uppercase;
 }
 
 .quote-row {
+	padding-top: 120px;
 }
 
 .wave {
