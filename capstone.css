@@ -14,35 +14,76 @@ main {
 	overflow: hidden;
 }
 
-nav li {
+.containerNav{
+	padding-left: 15%;
+	padding-right: 15%;
+	background-color: black;
+}
+
+.nav a {
+	position: relative;
 	color: white;
+	font-size: 1rem;
+	word-spacing: 30px;
 }
 
-.nav-item {
-	/*padding-left: 50px;*/
+.nav .active:after{
+	content: "";
+	position: absolute;
+	background-color: white;
+	height: 4px;
+	width: 80%;
+	left: 0;
+	bottom: -10px;
+	transition: 0.3s;
 }
 
-nav li {
-	font-size: 1.5rem;
+.nav a:after{
+	content: "";
+	position: absolute;
+	background-color: white;
+	height: 4px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+	transition: 0.3s;
 }
+
+.nav a:hover:after{
+	width: 80%;
+}
+
 
 .welcome {
 	grid-template-columns: auto-fit;
+	background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+	background-color: rgba(0, 0, 0, 0.5);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	background-attachment: fixed;
 }
 
 .welcome > div {
-	min-height: 91vh;
+	min-height: 80vh;
 	overflow: hidden;
 	flex-wrap: 	wrap;
 }
 
-.welcome-title > h1{
-	text-shadow: 10px 10px 10px black;  
-	font-size: 9em;
+.welcome-title{
+	width:60%;
+	padding-left: 15%;
 }
 
-.welcome-desc > p { 
-	font-size: 1.2em;
+.welcome-title h1{
+	text-shadow: 10px 10px 10px black;  
+	font-size: 6em;
+
+}
+
+.welcome  p { 
+	font-size: 0.85rem;
 
 }
 
@@ -127,10 +168,9 @@ nav li {
 .friends-side {
 	align-items: center;
 }
-
-.carousel h4 {
+/*.say div > p {
 	min-height: 400px;
-}
+}*/
 
 .carousel {
 	min-height: 100%;
@@ -294,18 +334,22 @@ input + p {
 }
 
 @media only screen and (max-width: 700px) {
-  .welcome-title > h1 {
-    font-size: 4.5rem;
+	.welcome-title{
+		width: 100%;
+	}
+  .welcome-title h1 {
+    font-size: 3rem;
   }
 
-  .welcome-title > p {
-  	font-size: 1rem;
+  .welcome-title p {
+  	font-size: 0.8rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .welcome-title > h1 {
-    font-size: 3.5rem;
+
+  .welcome-title  h1 {
+    font-size: 2rem;
     text-align: center;
   }
 

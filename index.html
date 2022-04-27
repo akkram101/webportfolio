@@ -16,29 +16,38 @@
 
 <body id="home">
 
-	<nav class="navbar text-light bg-dark justify-content-end">
-		<ul class="nav">
-			<li class="nav-item">
-				<a class="nav-link text-light" href="#about">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link text-light" href="#projects">Projects</a>
-			</li>
-			<li class="nav-item">
-				<a href="#contact" class="nav-link text-light">Contact</a>
-			</li>
-		</ul>
-
-	</nav>
+	<div class="container-fluid text-light containerNav sticky-top">
+		<nav class="navbar">
+			<a class="navbar-brand text-light" href="#">AKKRAM</a>
+			<ul class="nav justify-content-end">
+				<li class="nav-item">
+					<a class="nav-link text-light" href="#about">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-light" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-light" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a href="#contact" class="nav-link text-light">Contact</a>
+				</li>
+			</ul>
+		</nav>		
+	</div>
 
 	<main class="bg-light text-dark">
 
 		<!-- welcome -->
-		<div class="welcome bg-dark">
+		<div class="welcome">
 			<div class="d-flex justify-content-start align-items-center">
 				<div class="welcome-title text-light">
-					<h1 class="m-5" data-aos="fade-right" data-aos-duration="2000" ><strong>Akkram Bederi</strong></h1>
-					<p class="text-right p-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">Front & Back-end Developer</p>
+					<div class="m-5">
+						<h1 data-aos="fade-right" data-aos-duration="2000" ><strong>Hi! I'm <span class="text-danger">Akkram</span></strong></h1>
+						<p class="text-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">Front & Back-end Developer</p>
+					</div>
+
+					<p class="m-5" style="width:70%" data-aos="fade-right" data-aos-duration="2000">A motivated Junior Full-Stack Web Developer who is passionate and enjoys coding more than anything else. Fundamentally sound in MERN Stack Web Development. Able to design visually pleasing Front-ends as well as create a functioning back-end along with it.</p>
 				</div>
 			</div> 
 		</div>		
@@ -48,13 +57,13 @@
 		<div class="about container-fluid bg-light text-dark" id="about" date-aos="fade-right">
 			<div class="about-text row align-items-center">
 				<div class="col-12 col-md-6 text-right">
-					<div class="picture row align-items-center">
-						<div class="col-12 col-md-6 side">
+					<div class="picture row justify-content-end align-items-center">
+						<!-- <div class="col-12 col-md-6 side">
 							<div class="more-info bg-dark text-left text-light p-3" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000">
 								<h4>Languages</h4>
 								<p>HTML5, Javascript, PHP</p>
 							</div>				
-						</div>
+						</div> -->
 						<div class="col-12 col-lg-6 text-center" data-aos="fade-up" data-aos-duration="1000">
 							<img src="./images/logo.jpg" width="400px" height="400px" class="img-fluid">
 						</div>
@@ -63,11 +72,11 @@
 				<div class="about-text col-12 col-lg-4 p-5" data-aos="fade-up" data-aos-duration="1000">
 					<h1>About me</h1>
 					<h2><strong>Akkram Bederi</strong></h2>
-					<p>Hi! I'm a Full-Stack Web Developer based in the Philippines. I graduated Full-stack Development at Zuitt Coding Bootcamp. I enjoy coding and making web pages for users to interact with</p>
+					<p>Hi! I'm a Full-Stack Web Developer based in the Philippines. Completed Full-stack Web Development Course at Zuitt Coding Bootcamp. I enjoy coding and making web pages for users to interact with</p>
 					<h5>Education</h5>
-					<p>I graduated in BS Aircraft Maintenance Technology in Philippines State College of Aeronautics and looking to change career as coding has always been the profession that I wanted to pursue. </p>
+					<p>I graduated BS Aircraft Maintenance Technology in Philippines State College of Aeronautics and looking to change career as coding has always been the profession that I wanted to pursue. </p>
 					<h5>Experience</h5>
-					<p>Starter Experience in Front-end Development, 1 year experience in Digital Marketing</p>
+					<p>Starter Experience in Full-Stack Web Development, 1 year experience in Digital Marketing</p>
 				</div>
 				</div>
 				<div class="tools-row row justify-content-center">
@@ -97,14 +106,14 @@
 				<div class="col-12 col-md-6">
 				</div>
 			</div>
-			<div class="friends-row row justify-content-end text-dark align-items-center">
+			<div class="friends-row row justify-content-center bg-light text-dark align-items-center">
 
 				<div class="col-12 col-md-6" data-aos="fade-in" data-aos-duration="2000">
 					<h1 class="m-5"><strong>What people have to say about me?</strong></h1>
-					<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+					<div class="carousel slide" data-ride="carousel">
 					  	<div class="carousel-inner">
 					   		<div class="carousel-item active" data-interval="3000">
-					        	<h4 class="p-5">"I've known Akkram for 6 years now and what I can say about him is he speaks professionally but make people feel at ease with a bit of his humor and friendliness. He has an upbeat personality and focus on the positives, even when things go wrong. In our circle, he's been known to diffuse tense conversations and avoid conflict simply by steering the mood and tone with more positive and calm speech."</h4>
+					        	<p class="p-5">"I've known Akkram for 6 years now and what I can say about him is he speaks professionally but make people feel at ease with a bit of his humor and friendliness. He has an upbeat personality and focus on the positives, even when things go wrong. In our circle, he's been known to diffuse tense conversations and avoid conflict simply by steering the mood and tone with more positive and calm speech."</p>
 					        	<div class="say d-flex justify-content-end align-items-center">
 					        		<div class="m-5">
 					        			<p>Rey Ballaran</p>
@@ -116,7 +125,7 @@
 					        	</div>
 					    	</div>
 					    	<div class="carousel-item" data-interval="3000">
-					    		<h4 class="p-5">"More than the physical asset that he was blessed, still he has the intelligence and versatility. Be it in academics and non-academics, this guy got them all. Apart form these, he is a decisive and goal-oriented person. Always looking for every opportunity to do better and achieve greatness."</h4>
+					    		<p class="p-5">"More than the physical asset that he was blessed, still he has the intelligence and versatility. Be it in academics and non-academics, this guy got them all. Apart form these, he is a decisive and goal-oriented person. Always looking for every opportunity to do better and achieve greatness."</p>
 					    		<div class="say d-flex justify-content-end align-items-center">
 					        		<div class="m-5">
 					        			<p>Teejay Arciaga</p>
@@ -127,22 +136,7 @@
 					        		</div>
 					        	</div>
 					    	</div>
-					    	<!-- <div class="carousel-item" data-interval="2000">
-					    		<h4 class="p-5">"Pogi ng anak ko"</h4	>
-					    		<div class="say d-flex justify-content-end">
-					        		<div>
-					        			<p>Mama</p>
-					        		</div>
-					        	</div>
-					  		</div> -->
 						</div>					
-					</div>
-				</div>
-				<div class="col-12 col-md-4">
-					<div class="friends-side side row">
-						<div class="say-div col-12 bg-dark" data-aos="slide-left" data-aos-duration="1000" data-aos-delay="1000">
-							<h4 class="p-4 text-light">Their words, not mine hehe</h4>
-						</div>	
 					</div>
 				</div>
 			</div>
@@ -249,63 +243,8 @@
 	</main>
 
 
-	<footer class="footer bg-light pt-3">
-		<div class="container-fluid text-dark">
-			<div class="row justify-content-center">
-				<div class="col-12 col-md-3">
-					<ul class="navigation text-dark">
-						<p>Navigation</p>
-						<a href="#home"><li>Home</li></a>
-						<a href="#about"><li>About me</li></a>
-						<a href="#projects"><li>Projects</li></a>
-					</ul>
-				</div>
-				<div class="col-12 col-md-3">
-					<ul class="career text-dark">
-						<p>Contact</p>
-						<li class="contactnum">akkram101@gmail.com</li></a>
-						<li class="contactnum">+639955498330</li></a>
-					</ul>
-				</div>
-				<div class="col-12 col-md-3">
-				</div>
-				<div class="col-12 col-md-3 text-dark">
-					<p>Subscribe for updates</p>
-					<input type="email" class="form-control" placeholder="email address">
-					<button type="button" class="btn bg-dark text-light" data-toggle="modal" data-target="#emailModal">
-						Submit
-					</button>
-					<div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
-					  <div class="modal-dialog">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title text-dark" id="emailModalLabel">Subscribed!</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body text-dark">
-					        <h5 class="m-5">Thank you for subscribing!</h5>
-					        <p class="m-5">You will now be receiving updates whenever an update has been made to the webpage!</p>
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn text-light bg-dark" data-dismiss="modal">Close
-					        </button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<div class="pb-5">
-				 	<p class="text-light">Social Links</p>
-					<a href="https://www.facebook.com/akkram11/" class="fa fa-facebook text-light"></a>	
-					<a href="https://twitter.com/akkramPotates" class="fa fa-twitter text-light"></a>	
-					<a href="https://www.instagram.com/akkram.1/" class="fa fa-instagram text-light"></a>	
-					<!-- <a href="#" class="fa fa-google text-light"></a> -->
-					</div>	
-				</div>
-			</div>
-		</div>
-	</footer>
+	
+	<script src="script.js"></script>
 
 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
