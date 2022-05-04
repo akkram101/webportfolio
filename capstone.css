@@ -3,21 +3,25 @@
 	margin: 0px;
 	border: border-box;
 	font-family: 'Poppins', sans-serif;
-
 }
 
 html {
 	scroll-behavior: smooth;
 }
 
+body {
+	background: #212121;
+}
+
 main {
 	overflow: hidden;
+	background: #212121;
 }
 
 .containerNav{
 	padding-left: 15%;
 	padding-right: 15%;
-	background-color: black;
+	background-color: #171717;
 }
 
 .nav a {
@@ -53,8 +57,11 @@ main {
 	width: 80%;
 }
 
+.navbar-toggler-icon{
+	color: white;
+}
 
-.welcome {
+/*.welcome {
 	grid-template-columns: auto-fit;
 	background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
 	background-color: rgba(0, 0, 0, 0.5);
@@ -64,6 +71,11 @@ main {
 	background-blend-mode: multiply;
 	background-attachment: fixed;
 }
+*/
+.welcome{
+background-color: #171717;
+padding-left: 15%;
+}
 
 .welcome > div {
 	min-height: 80vh;
@@ -72,7 +84,6 @@ main {
 }
 
 .welcome-title{
-	width:60%;
 	padding-left: 15%;
 }
 
@@ -83,8 +94,27 @@ main {
 }
 
 .welcome  p { 
-	font-size: 0.85rem;
+	font-size: 1rem;
+	width:70%;
+}
 
+.welcome button{
+	border-radius: 50px;
+}
+
+.welcome .red{
+	height: 400px;
+	width: 40%;
+	background-color: #DA0037;
+}
+
+.welcome .dark{
+	position: absolute;
+	left: 100px;
+	bottom: 100px;
+	height: 400px;
+	width: 40%;
+	background-color: #EDEDED;
 }
 
 .about {
@@ -162,7 +192,8 @@ main {
 
 .friends {
 	position: relative;
-	min-height: 100vh;
+	min-height: 80vh;
+	background-color: #171717;
 }
 
 .friends-side {
@@ -343,6 +374,7 @@ input + p {
 
   .welcome-title p {
   	font-size: 0.8rem;
+  	width: 100%;
   }
 }
 
@@ -354,7 +386,7 @@ input + p {
   }
 
   .welcome-title p {
-
+  	width: 100%;
   	padding-right: 50px;
   	text-align: right;
   }
